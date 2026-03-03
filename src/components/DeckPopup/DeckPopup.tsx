@@ -47,6 +47,7 @@ export const DeckPopup = ({ deck, visible }: Props) => {
       onShow={(e) => {
         updateSpinnerSpunAfterDuration(setSpinnerSpun, false, 5000);
       }}>
+      onRequestClose={onClose}
       <View className={styles.modalContainer}>
         <View className={styles.deckTypePopup}>
           <View className={styles.popupIconContainer}>
