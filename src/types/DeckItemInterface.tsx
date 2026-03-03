@@ -1,9 +1,9 @@
-import type { ImageSourcePropType } from "react-native";
+import type { ImageSourcePropType } from 'react-native';
 
 export interface DeckItemInterface {
-    icon: ImageSourcePropType,
-    name: string,
-    type: string,
-    message: string,
-    active: boolean,
+  icon: ImageSourcePropType;
+  name: string;
+  type: string;
+  message: string;
+  active: boolean;
 }

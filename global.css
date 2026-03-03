@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --color-deckgrey: 49 49 49; /* use RGB channels, not hex */
   --color-deckwood: 177 110 77;

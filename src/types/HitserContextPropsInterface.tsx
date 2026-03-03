@@ -1,3 +1,3 @@
 export interface HitserContextPropsInterface {
-  children?: React.ReactNode; 
+  children?: React.ReactNode;
 }

@@ -17,7 +17,6 @@ Spin the wheel to randomly select which deck to draw from — no more arguments 
 - 💾 Saves selected decks between sessions
 - 📱 Built with Expo + React Native
 
-
 ## 🛠 Tech Stack
 
 - React Native (Expo)
@@ -48,7 +47,6 @@ npx expo start
 ```bash
 npx expo run:android
 ```
-
 
 ## 🚀 Build Project with Expo
 

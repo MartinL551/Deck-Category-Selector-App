@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-import { platformSelect } from "nativewind/theme";
+import { platformSelect } from 'nativewind/theme';
 
 module.exports = {
   content: ['./App.{js,ts,tsx}', './src/**/*.{js,ts,tsx}'],
-  darkMode: "class",
+  darkMode: 'class',
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
@@ -17,7 +17,7 @@ module.exports = {
       },
       fontFamily: {
         bitcount: ['BitcountPropDoubleInk'],
-        "bitcount-bold": ['BitcountPropDoubleInkBold'],
+        'bitcount-bold': ['BitcountPropDoubleInkBold'],
       },
     },
   },
@@ -26,4 +26,3 @@ module.exports = {
     backgroundOpacity: true,
   },
 };
-

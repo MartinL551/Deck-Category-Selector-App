@@ -1,7 +1,6 @@
 import * as React from 'react';
 import type { SpinnerContextType } from '@/types/SpinnerContextType';
 
-
 export const SpinnerContext = React.createContext<SpinnerContextType | null>(null);
 
 export function SpinnerProvider({ children }: { children: React.ReactNode }) {

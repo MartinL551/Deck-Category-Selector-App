@@ -9,11 +9,7 @@
     "experiments": {
       "tsconfigPaths": true
     },
-    "plugins": [
-      [
-        "expo-localization"
-      ]
-    ],
+    "plugins": [["expo-localization"]],
     "orientation": "portrait",
     "icon": "./assets/icons/recordV2.png",
     "userInterfaceStyle": "light",
@@ -22,9 +18,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
