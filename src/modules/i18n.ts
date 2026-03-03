@@ -27,8 +27,8 @@ const languageDetector = {
         return;
     }
     
-    const locale = Localization.locale ?? "en";
-    const languageCode = locale.split("-")[0]; // "en-GB" -> "en"
+    const locales = Localization.getLocales();
+    const languageCode = locales[0]?.languageCode ?? "en";
     callback(languageCode);
   },
   init: () => {},
