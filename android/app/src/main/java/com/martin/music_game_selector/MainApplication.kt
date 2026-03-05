@@ -1,5 +1,4 @@
 package com.martin.music_game_selector
-import com.facebook.react.common.assets.ReactFontManager
 
 import android.app.Application
 import android.content.res.Configuration
@@ -41,9 +40,6 @@ class MainApplication : Application(), ReactApplication {
 
   override fun onCreate() {
     super.onCreate()
-    // @generated begin xml-fonts-init - expo prebuild (DO NOT MODIFY) sync-059902062a759d357286217a78e4428411d5e595
-    ReactFontManager.getInstance().addCustomFont(this, "BitcountPropDoubleInk", R.font.xml_bitcount_prop_double_ink)
-    // @generated end xml-fonts-init
     DefaultNewArchitectureEntryPoint.releaseLevel = try {
       ReleaseLevel.valueOf(BuildConfig.REACT_NATIVE_RELEASE_LEVEL.uppercase())
     } catch (e: IllegalArgumentException) {
