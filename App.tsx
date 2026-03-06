@@ -6,6 +6,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import 'src/modules/i18n'; // Import i18n configuration
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -15,6 +16,8 @@ export default function App() {
     BitcountPropDoubleInk: require('./assets/fonts/BitcountPropDouble_Regular.ttf'),
     BitcountPropDoubleInkBold: require('./assets/fonts/BitcountPropDouble_Bold.ttf'),
   });
+
+
 
   // Show splash until fonts are loaded
   useEffect(() => {
@@ -28,10 +31,12 @@ export default function App() {
   }
 
   return (
-    <GestureHandlerRootView>
-      <DecksProvider>
-        <SpinnerScreen />
-      </DecksProvider>
-    </GestureHandlerRootView>
+    <SafeAreaProvider>
+      <GestureHandlerRootView>
+          <DecksProvider>
+            <SpinnerScreen />
+          </DecksProvider>
+      </GestureHandlerRootView>
+    </SafeAreaProvider>
   );
 }
