@@ -20,7 +20,7 @@ Spin the wheel to randomly select which deck to draw from — no more arguments 
 ## 🛠 Tech Stack
 
 - React Native (Expo)
-- Reanimated 3
+- Reanimated 4
 - React Native Gesture Handler
 - NativeWind (Tailwind for RN)
 - i18next (translations)

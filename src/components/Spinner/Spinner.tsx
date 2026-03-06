@@ -19,6 +19,7 @@ import {
 import type { DeckItemInterface } from '@/types/DeckItemInterface';
 import type { DeckItemsInterface } from '@/types/DeckItemsType';
 import { isAngleInRange, getSegmentsAngle } from '@/utlis/checkerMath';
+
 type Props = {
   onResult: (deck: DeckItemInterface | null) => void;
 };

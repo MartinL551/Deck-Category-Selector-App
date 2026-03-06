@@ -10,6 +10,7 @@ import type { DeckItemInterface } from '@/types/DeckItemInterface';
 import { useDecks } from '@/hooks/useDecks';
 import { useAutoDismiss } from '@/hooks/useAutoDismiss';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+
 export const SpinnerScreen = () => {
   const { entries } = useDecks();
   const { t } = useTranslation();
